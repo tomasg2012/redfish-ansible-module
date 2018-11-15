@@ -14,9 +14,9 @@
       category: Accounts
       command: AddUser
       baseuri: "{{ baseuri }}"
-      user: "{{ user }}"
-      password: "{{ password }}"
-      userid: "{{ userid }}"
       username: "{{ username }}"
-      userpswd: "{{ userpswd }}"
-      userrole: "{{ userrole }}"
+      password: "{{ password }}"
+      id: "{{ id }}"
+      new_username: "{{ new_username }}"
+      new_password: "{{ new_password }}"
+      roleid: "{{ roleid }}"

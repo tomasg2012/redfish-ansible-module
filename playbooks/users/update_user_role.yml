@@ -11,9 +11,9 @@
   - name: Update user role
     redfish_command:
       category: Accounts
-      command: UpdateUserRole
+      command: Updateroleid
       baseuri: "{{ baseuri }}"
-      user: "{{ user }}"
+      username: "{{ username }}"
       password: "{{ password }}"
-      userid: "{{ userid }}"
-      userrole: "{{ userrole }}"
+      id: "{{ id }}"
+      roleid: "{{ roleid }}"

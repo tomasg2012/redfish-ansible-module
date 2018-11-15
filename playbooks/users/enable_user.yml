@@ -13,6 +13,6 @@
       category: Accounts
       command: EnableUser
       baseuri: "{{ baseuri }}"
-      user: "{{ user }}"
+      username: "{{ username }}"
       password: "{{ password }}"
-      userid: "{{ userid }}"
+      id: "{{ id }}"

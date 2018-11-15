@@ -4,7 +4,7 @@
   name: Delete User
   gather_facts: False
 
-  # User to add, modify or delete is defined in file group_vars/all
+  # user to add, modify or delete is defined in file group_vars/all
 
   tasks:
 
@@ -13,6 +13,6 @@
       category: Accounts
       command: DeleteUser
       baseuri: "{{ baseuri }}"
-      user: "{{ user }}"
+      username: "{{ username }}"
       password: "{{ password }}"
-      userid: "{{ userid }}"
+      id: "{{ id }}"
